@@ -1,14 +1,9 @@
-# app-tests-netsocks-client
-
-```cpp
 /****************************************************************************
 ** ┌─┐┬ ┬┬─┐┌─┐┬─┐┌─┐  ┌─┐┬─┐┌─┐┌┬┐┌─┐┬ ┬┌─┐┬─┐┬┌─
 ** ├─┤│ │├┬┘│ │├┬┘├─┤  ├┤ ├┬┘├─┤│││├┤ ││││ │├┬┘├┴┐
 ** ┴ ┴└─┘┴└─└─┘┴└─┴ ┴  └  ┴└─┴ ┴┴ ┴└─┘└┴┘└─┘┴└─┴ ┴
 ** A Powerful General Purpose Framework
 ** More information in: https://aurora-fw.github.io/
-**
-** Copyright (C) 2017 Aurora Framework, All rights reserved.
 **
 ** This file is part of the Aurora Framework. This framework is free
 ** software; you can redistribute it and/or modify it under the terms of
@@ -18,4 +13,8 @@
 ** ensure the GNU General Public License version 3 requirements will be
 ** met: https://www.gnu.org/licenses/gpl-3.0.html.
 ****************************************************************************/
-```
+/*
+ * @file server.cpp
+ * @author Filipe Lains <FFY00>
+ * @since 1.0
+ */

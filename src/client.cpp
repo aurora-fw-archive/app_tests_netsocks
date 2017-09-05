@@ -5,12 +5,6 @@
 ** A Powerful General Purpose Framework
 ** More information in: https://aurora-fw.github.io/
 **
-** Copyright (C) 2017 Aurora Framework, All rights reserved.
-** @file main.cpp
-** @workspace tests/netsocks/server
-** @author Filipe Lains <FFY00>
-** @since 1.0
-**
 ** This file is part of the Aurora Framework. This framework is free
 ** software; you can redistribute it and/or modify it under the terms of
 ** the GNU General Public License version 3 as published by the Free
@@ -19,3 +13,8 @@
 ** ensure the GNU General Public License version 3 requirements will be
 ** met: https://www.gnu.org/licenses/gpl-3.0.html.
 ****************************************************************************/
+/*
+ * @file client.cpp
+ * @author Filipe Lains <FFY00>
+ * @since 1.0
+ */
