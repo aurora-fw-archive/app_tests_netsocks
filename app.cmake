@@ -17,11 +17,14 @@
 message(STATUS "Loading tests-netsocks-server app...")
 
 if (NOT CONFIGURED_ONCE)
-    set(AURORAFW_APP_TESTS_NETSOCKS_SERVER_SOURCE_DIR ${AURORAFW_APP_TESTS_NETSOCKS_SERVER_DIR}/src)
+    set(AURORAFW_APP_TESTS_NETSOCKS_SOURCE_DIR ${AURORAFW_APP_TESTS_NETSOCKS_DIR}/src)
 endif()
 
-add_executable(aurorafw_app_tests_netsocks_server ${AURORAFW_APP_TESTS_NETSOCKS_SERVER_SOURCE_DIR}/main.cpp)
+add_executable(aurorafw_app_tests_netsocks_client ${AURORAFW_APP_TESTS_NETSOCKS_SOURCE_DIR}/client.cpp)
+add_executable(aurorafw_app_tests_netsocks_server ${AURORAFW_APP_TESTS_NETSOCKS_SOURCE_DIR}/server.cpp)
 
+target_link_libraries(aurorafw_app_tests_netsocks_client aurorafw-core aurorafw-netsocks)
 target_link_libraries(aurorafw_app_tests_netsocks_server aurorafw-core aurorafw-netsocks)
 
+set_target_properties(aurorafw_app_tests_netsocks_client PROPERTIES OUTPUT_NAME aurorafw_app_tests_netsocks_client.out)
 set_target_properties(aurorafw_app_tests_netsocks_server PROPERTIES OUTPUT_NAME aurorafw_app_tests_netsocks_server.out)
