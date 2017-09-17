@@ -16,7 +16,7 @@
 ** met: https://www.gnu.org/licenses/gpl-3.0.html.
 ****************************************************************************/
 
-/*
+/**
  * @file server.cpp
  * @author Filipe “FFY00” Lains <filipe.lains@gmail.com>
  * @author Luís “ljmf00” Ferreira <contact@lsferreira.net>
