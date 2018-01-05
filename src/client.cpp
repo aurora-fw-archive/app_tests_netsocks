@@ -23,7 +23,7 @@
  * @since 1.0
  */
 
-#include <AuroraFW/Aurora.h>
+#include <AuroraFW/Core.h>
 
 using namespace AuroraFW;
 
