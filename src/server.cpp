@@ -29,14 +29,14 @@ using namespace AuroraFW;
 
 Application* App;
 
-afwslot slot_App_on_open()
+afwslot slot_App_on_open(Application* )
 {
 	// code ...
 }
 
 int main(int argc, char* argv[])
 {
-    App = new Application(slot_App_on_open, argc, argv);
+    App = new Application(argc, argv, slot_App_on_open);
     delete App;
 
     return EXIT_SUCCESS;
