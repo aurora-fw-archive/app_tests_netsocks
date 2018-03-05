@@ -29,7 +29,7 @@ using namespace AuroraFW;
 
 Application* App;
 
-afwslot slot_App_on_open(Application* )
+void slot_App_on_open(Application* )
 {
 	// code ...
 }
